@@ -21,7 +21,7 @@ than duplicated here.
 
 This project runs on a Qualcomm Dragonwing IQ-9075 EVK. The board ships with a factory image, so flash it with Ubuntu first, then do everything below on the board.
 
-1. Flash Ubuntu. Follow the [IQ-9075 EVK Ubuntu quickstart](https://docs.qualcomm.com/bundle/publicresource/80-90441-252/topics/iq9-ubuntu-qsg-landing-page-1.md) for the out-of-box steps, and the [update-software guide](https://dragonwingdocs.qualcomm.com/Ubuntu/devices/iq9075-evk/update-software/overview.md) to write the image. Either method works: [flash over QLI](https://dragonwingdocs.qualcomm.com/Ubuntu/devices/iq9075-evk/update-software/flash-over-qli.md) or the [Qualcomm launcher](https://dragonwingdocs.qualcomm.com/Ubuntu/devices/iq9075-evk/update-software/flash-using-qualcomm-launcher.md).
+1. Flash Ubuntu. Follow the Dragonwing quickstart for the out-of-box steps, and the [flashing the EVK with Ubuntu](https://dragonwingdocs.qualcomm.com/Ubuntu/devices/iq9075-evk/update-software/overview.md) guide to write the image. If you want to match the exact method, the docs cover flash over QLI and the [Qualcomm launcher](https://dragonwingdocs.qualcomm.com/Ubuntu/devices/iq9075-evk/update-software/flash-using-qualcomm-launcher).
 2. Connect the hardware. SO-101 over its USB-to-serial adapter, the two cameras over USB.
 3. Continue with "Create an environment" below, on the board.
 
