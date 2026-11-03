@@ -1,0 +1,22 @@
+{
+  "scene_path": "model/scene.xml",
+  "control": {
+    "joint_step_deg": 3.0,
+    "cartesian_step_m": 0.005,
+    "ik_damping": 0.04,
+    "replay_segment_seconds": 1.4
+  },
+  "home": {
+    "shoulder_pan": 0.0,
+    "shoulder_lift": 0.0,
+    "elbow_flex": 0.0,
+    "wrist_flex": 0.0,
+    "wrist_roll": 0.0,
+    "gripper": 1.20
+  },
+  "task": {
+    "cube_xyz_m": [-0.20, 0.00, 0.015],
+    "box_xyz_m": [-0.17, -0.13, 0.0],
+    "box_inner_half_xy_m": [0.044, 0.044]
+  }
+}
