@@ -4,8 +4,6 @@ A deliberately small classical-robotics project: control an SO-101 in MuJoCo,
 pick up the supplied 30 mm cube, place it in the supplied 100 x 100 x 20 mm box,
 save important poses as waypoints, then replay them.
 
-No camera. No neural network. No Rerun. No ROS.
-
 ## What is included
 
 - Your `cube.stl` and `box.stl` in `model/task_assets/`
